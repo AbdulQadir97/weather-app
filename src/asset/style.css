@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundImage{
+    background-image: url(./bgImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+
+}
+.card{
+    margin: 40% 0%;
+    padding: 50%;
+    box-shadow:  0 5px 15px
+}
+.inputFeild{
+
+   color: white;
+   padding: 8px;
+   background: transparent;
+   box-shadow: rgb(126, 255, 238);
+   border:  1px white solid;
+   border-radius: 50px;
+
+}
+.inputFeild::placeholder
+{
+    color: white;
+}
+.btn-transparent
+{
+    background: transparent;
+    border-radius: 50px;
+    border:  1px white solid;
+    color: white;
+    margin: 10px 25%;
+
+}
+
