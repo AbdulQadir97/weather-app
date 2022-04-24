@@ -40,3 +40,24 @@
 
 }
 
+.btn-transparent:hover{
+    background: transparent ;
+    color: white;
+    font-weight: bolder;
+}
+.displayStyling
+{
+    box-shadow:  0 0px 25px;
+    background-color: rgba(255, 255, 255, 0.021);
+    color: rgb(255, 255, 255);
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px ;
+    padding: 5px;
+    text-transform: capitalize;
+    
+}
+
+
